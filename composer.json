@@ -1,0 +1,27 @@
+{
+  "name": "prihod/promt-translate",
+  "description": "Client for PROMT translate API",
+  "keywords": [
+    "PROMT",
+    "translate",
+    "promt-translate",
+    "API"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "prihod",
+      "email": "prihod2004@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Prihod\\Translate\\": "src"
+    }
+  }
+}
